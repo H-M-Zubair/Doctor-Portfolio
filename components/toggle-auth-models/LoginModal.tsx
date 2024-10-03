@@ -100,25 +100,24 @@ const LoginModal = ({
                 />
               </div>
               <DialogFooter className="flex-col items-stretch sm:flex-row  sm:space-x-2">
-              <Button
-  type="submit"
-  disabled={isSubmitting}
-  className={`mb-2 sm:mb-0 btn ${
-    isSubmitting ? 'bg-white text-blue-600' : 'bg-blue-600 hover:bg-blue-500 text-white'
-  } flex items-center justify-center transition-colors duration-200`}
->
-  {isSubmitting ? (
-    <>
-      <div className="flex items-center">
-        <span className="loading loading-spinner text-blue-600 mr-2"></span>
-        <span className="text-blue-600">Loading...</span>
-      </div>
-    </>
-  ) : (
-    <span>Login</span>
-  )}
-</Button>
-
+                <Button
+                  type="submit"
+                  disabled={isSubmitting}
+                  className={`mb-2 sm:mb-0 btn ${
+                    isSubmitting
+                      ? "bg-white text-blue-600"
+                      : "bg-blue-600 hover:bg-blue-500 text-white"
+                  } flex items-center justify-center transition-colors duration-200`}
+                >
+                  {isSubmitting ? (
+                    <div className="flex items-center">
+                      <span className="loading loading-spinner text-blue-600 mr-2"></span>
+                      <span className="text-blue-600">Loading...</span>
+                    </div>
+                  ) : (
+                    <span>Login</span>
+                  )}
+                </Button>
 
                 <Button
                   variant="outline"
