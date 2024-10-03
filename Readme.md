@@ -38,7 +38,7 @@ This is a **Single Page Application** (SPA) designed for managing doctor appoint
 ## How to Run the Project
 1. Clone the repository.
    ```bash
-   git clone https://github.com/your-username/doctor-portfolio.git
+   git clone https://github.com/H-M-Zubair/doctor-portfolio.git
    cd doctor-portfolio
 2. Install dependencies:
 
