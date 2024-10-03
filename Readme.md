@@ -19,20 +19,12 @@ This is a **Single Page Application** (SPA) designed for managing doctor appoint
   - **Patient Dashboard**:
     - Schedule appointments.
     - Fill in assessment forms (some fields are optional, while others are required).
-  - **Doctor Dashboard**:
+  - **Doctor Dashboard**: (Another Repository fo)
     - View a list of all patient requests.
     - View and manage patient appointment requests.
     - Access patient-filled assessment forms and update them as necessary.
-- **EHR Management**: 
-  - The doctor can view all records of patients logged into the system.
-  - The ability to update and manage filled assessment forms of patients.
+
   
-### Backend Features
-- **Backend Integration**: Fully functional backend that handles:
-  - User authentication.
-  - Appointment management.
-  - EHR storage and retrieval.
-- **API for Meeting Requests**: Backend handles scheduling requests from patients and updates them on the doctor’s side.
   
 ### Technologies Used
 - **Frontend**: 
@@ -41,13 +33,7 @@ This is a **Single Page Application** (SPA) designed for managing doctor appoint
   - Toaster notifications
 - **Backend**: 
   - Node.js with Express
-  - Prisma ORM for database management
-- **Database**: 
-  - Integrated with PostgreSQL or MySQL using Prisma ORM
-- **Authentication**: 
-  - JWT-based user authentication for secure login and registration.
-- **EHR (Electronic Health Record) Management**:
-  - Separate EHR management system for both doctors and patients to track appointments and manage health records efficiently.
+
 
 ## How to Run the Project
 1. Clone the repository.
